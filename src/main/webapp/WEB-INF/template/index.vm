@@ -10,11 +10,11 @@
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //custom-theme -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/JiSlider.css" rel="stylesheet"> 
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${rc.contextPath}/media/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${rc.contextPath}/media/css/JiSlider.css" rel="stylesheet">
+<link href="${rc.contextPath}/media/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- font-awesome-icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="${rc.contextPath}/media/css/font-awesome.css" rel="stylesheet">
 <!-- //font-awesome-icons -->
 <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
@@ -174,7 +174,7 @@
 									<h4 class="modal-title">Boat house</h4>
 								</div>
 								<div class="modal-body">
-									<img src="images/g4.jpg" class="img-responsive" alt="Boat house">
+									<img src="${rc.contextPath}/media/images/g4.jpg" class="img-responsive" alt="Boat house">
 									<h5>Fishing Season Now Open</h5>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius lectus vitae porttitor fringilla. Donec turpis orci, elementum a nunc quis, maximus varius ipsum. Sed bibendum ex in dignissim bibendum.</p>
 								</div>
@@ -251,7 +251,7 @@
 						</div>
 					</div>
 					<div class="w3-agile-news-img">
-						<a href="#myModal" data-toggle="modal"><img src="images/g1.jpg" alt="" /></a>
+						<a href="#myModal" data-toggle="modal"><img src="${rc.contextPath}/media/images/g1.jpg" alt="" /></a>
 						<h4><a href="#myModal" data-toggle="modal">Pellentesque habitant </a></h4>
 						<p>Donec justo ante, maximus et aliquam et, elementum ac purus. Nam eget ante ac velit laoreet sodales ut vel nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
@@ -275,7 +275,7 @@
 						</div>
 					</div>
 					<div class="w3-agile-news-img">
-						<a href="#myModal" data-toggle="modal"><img src="images/g2.jpg" alt="" /></a>
+						<a href="#myModal" data-toggle="modal"><img src="${rc.contextPath}/media/images/g2.jpg" alt="" /></a>
 						<h4><a href="#myModal" data-toggle="modal">Pellentesque habitant </a></h4>
 						<p>Nam eget ante ac velit laoreet sodales ut vel nibh. Donec justo ante, maximus et aliquam et, elementum ac purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
@@ -302,7 +302,7 @@
 						</div>
 					</div>
 					<div class="w3-agile-news-img">
-						<a href="#myModal" data-toggle="modal"><img src="images/g4.jpg" alt="" /></a>
+						<a href="#myModal" data-toggle="modal"><img src="${rc.contextPath}/media/images/g4.jpg" alt="" /></a>
 						<h4><a href="#myModal" data-toggle="modal">Pellentesque habitant </a></h4>
 						<p>Donec justo ante, maximus et aliquam et, elementum ac purus. Nam eget ante ac velit laoreet sodales ut vel nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
@@ -326,7 +326,7 @@
 						</div>
 					</div>
 					<div class="w3-agile-news-img">
-						<a href="#myModal" data-toggle="modal"><img src="images/g3.jpg" alt="" /></a>
+						<a href="#myModal" data-toggle="modal"><img src="${rc.contextPath}/media/images/g3.jpg" alt="" /></a>
 						<h4><a href="#myModal" data-toggle="modal">Pellentesque habitant </a></h4>
 						<p>Nam eget ante ac velit laoreet sodales ut vel nibh. Donec justo ante, maximus et aliquam et, elementum ac purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
@@ -383,13 +383,13 @@
 			<li>
 				<div class="wthree_testimonials_grid_main">
 					<div class="col-md-6 col-xs-6 wthree_testimonials_grid">
-						<p><img src="images/left-quote.png" alt=" ">  Donec laoreet eu purus eu viverra. Vestibulum sed convallis massa,
+						<p><img src="${rc.contextPath}/media/images/left-quote.png" alt=" ">  Donec laoreet eu purus eu viverra. Vestibulum sed convallis massa,
 							eu aliquet massa. Suspendisse lacinia rutrum tincidunt. Integer id erat porta, 
-							convallis.  <img src="images/right-quote.png" alt=" "></p>
+							convallis.  <img src="${rc.contextPath}/media/images/right-quote.png" alt=" "></p>
 					</div>
 					<div class="col-md-6 col-xs-6 wthree_testimonials_grid_pos">
 						<div class="col-md-5 col-xs-5 grid-test-w3l">
-							<img src="images/te3.jpg" alt=" " class="img-responsive" />
+							<img src="${rc.contextPath}/media/images/te3.jpg" alt=" " class="img-responsive" />
 						</div>
 						<div class="col-md-7 col-xs-7 wthree_testimonials_grid1">
 							<h5>Michael Paul</h5>
@@ -403,13 +403,13 @@
 			<li>
 				<div class="wthree_testimonials_grid_main">
 					<div class="col-md-6 col-xs-6 wthree_testimonials_grid">
-						<p><img src="images/left-quote.png" alt=" ">  Donec laoreet eu purus eu viverra. Vestibulum sed convallis massa,
+						<p><img src="${rc.contextPath}/media/images/left-quote.png" alt=" ">  Donec laoreet eu purus eu viverra. Vestibulum sed convallis massa,
 							eu aliquet massa. Suspendisse lacinia rutrum tincidunt. Integer id erat porta, 
-							convallis.  <img src="images/right-quote.png" alt=" "></p>
+							convallis.  <img src="${rc.contextPath}/media/images/right-quote.png" alt=" "></p>
 					</div>
 					<div class="col-md-6 col-xs-6 wthree_testimonials_grid_pos">
 						<div class="col-md-5 col-xs-5 grid-test-w3l">
-							<img src="images/te1.jpg" alt=" " class="img-responsive" />
+							<img src="${rc.contextPath}/media/images/te1.jpg" alt=" " class="img-responsive" />
 						</div>
 						<div class="col-md-7 col-xs-7 wthree_testimonials_grid1">
 							<h5>hael fgul</h5>
@@ -423,13 +423,13 @@
 			<li>
 				<div class="wthree_testimonials_grid_main">
 					<div class="col-md-6 col-xs-6 wthree_testimonials_grid">
-						<p><img src="images/left-quote.png" alt=" ">  Donec laoreet eu purus eu viverra. Vestibulum sed convallis massa,
+						<p><img src="${rc.contextPath}/media/images/left-quote.png" alt=" ">  Donec laoreet eu purus eu viverra. Vestibulum sed convallis massa,
 							eu aliquet massa. Suspendisse lacinia rutrum tincidunt. Integer id erat porta, 
-							convallis.  <img src="images/right-quote.png" alt=" "></p>
+							convallis.  <img src="${rc.contextPath}/media/images/right-quote.png" alt=" "></p>
 					</div>
 					<div class="col-md-6 col-xs-6 wthree_testimonials_grid_pos">
 						<div class="col-md-5 col-xs-5 grid-test-w3l">
-							<img src="images/te2.jpg" alt=" " class="img-responsive" />
+							<img src="${rc.contextPath}/media/images/te2.jpg" alt=" " class="img-responsive" />
 						</div>
 						<div class="col-md-7 col-xs-7 wthree_testimonials_grid1">
 							<h5>Linda Carl</h5>
@@ -502,15 +502,15 @@
 <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
 	<!-- js -->
-<script src="js/jquery-2.1.4.min.js"></script> 
-<script src="js/JiSlider.js"></script>
+<script src="${rc.contextPath}/media/js/jquery-2.1.4.min.js"></script>
+<script src="${rc.contextPath}/media/js/JiSlider.js"></script>
 <script>
 	$(window).load(function () {
 		$('#JiSlider').JiSlider({color: '#fff', start: 3, reverse: true}).addClass('ff')
 	})
 </script>
-	<script src="js/jarallax.js"></script>
-	<script src="js/SmoothScroll.min.js"></script>
+	<script src="${rc.contextPath}/media/js/jarallax.js"></script>
+	<script src="${rc.contextPath}/media/js/SmoothScroll.min.js"></script>
 	<script type="text/javascript">
 		/* init Jarallax */
 		$('.jarallax').jarallax({
@@ -523,15 +523,15 @@
 <!-- start-smoth-scrolling -->
 <!-- //for bootstrap working -->
 <!-- stats -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.countup.js"></script>
+	<script src="${rc.contextPath}/media/js/jquery.waypoints.min.js"></script>
+	<script src="${rc.contextPath}/media/js/jquery.countup.js"></script>
 		<script>
 			$('.counter').countUp();
 		</script>
 <!-- //stats -->
 <!-- start-smooth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="${rc.contextPath}/media/js/move-top.js"></script>
+<script type="text/javascript" src="${rc.contextPath}/media/js/easing.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
@@ -559,7 +559,7 @@
 	</script>
 <!-- //here ends scrolling icon -->
 
-<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+<script type="text/javascript" src="${rc.contextPath}/media/js/bootstrap-3.1.1.min.js"></script>
 	<script type="text/javascript">
 	$(window).load(function() {
 	$("#flexiselDemo1").flexisel({
@@ -587,7 +587,7 @@
 
 	});
 	</script>
-	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+	<script type="text/javascript" src="${rc.contextPath}/media/js/jquery.flexisel.js"></script>
 
 
 </body>
