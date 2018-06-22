@@ -1,4 +1,4 @@
-#set($layout = "/layout/blank.vm")
+#set($layout = "/layout/default.vm")
 <body>
     <h1>Hello</h1>
 </body>
