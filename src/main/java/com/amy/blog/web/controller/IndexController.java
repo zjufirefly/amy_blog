@@ -19,4 +19,9 @@ public class IndexController {
     public String gallery() {
         return "gallery";
     }
+
+    @RequestMapping(value = "/contact")
+    public String contact() {
+        return "contact";
+    }
 }
