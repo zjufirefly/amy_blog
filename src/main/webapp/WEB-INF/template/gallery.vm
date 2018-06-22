@@ -1,0 +1,103 @@
+#set($layout = "/layout/default.vm")
+<!-- banner -->
+	<div class="banner-1">
+	</div>
+<!-- //banner -->
+<!--start-gallery-->
+<div class="gallery">
+<div class="container">
+	 <div class="agileits_heading_section">
+				<h3 class="wthree_head">Gallery</h3>
+				<p class="w3l_sub_para_agile">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="inner_w3l_agile_grids-1">
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="${rc.contextPath}/media/images/g1.jpg" class="swipebox"><img src="${rc.contextPath}/media/images/g1.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Boat house</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="${rc.contextPath}/media/images/g2.jpg" class="swipebox"><img src="${rc.contextPath}/media/images/g2.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Boat house</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="${rc.contextPath}/media/images/g3.jpg" class="swipebox"><img src="${rc.contextPath}/media/images/g3.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Boat house</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="${rc.contextPath}/media/images/g4.jpg" class="swipebox"><img src="${rc.contextPath}/media/images/g4.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Boat house</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="${rc.contextPath}/media/images/g5.jpg" class="swipebox"><img src="${rc.contextPath}/media/images/g5.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Boat house</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="${rc.contextPath}/media/images/g6.jpg" class="swipebox"><img src="${rc.contextPath}/media/images/g6.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Boat house</h4>
+						</div>
+				   </a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="${rc.contextPath}/media/images/g6.jpg" class="swipebox"><img src="${rc.contextPath}/media/images/g7.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Boat house</h4>
+						</div>
+				   </a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="${rc.contextPath}/media/images/g6.jpg" class="swipebox"><img src="${rc.contextPath}/media/images/g8.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Boat house</h4>
+						</div>
+				   </a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="${rc.contextPath}/media/images/g9.jpg" class="swipebox"><img src="${rc.contextPath}/media/images/g9.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Boat house</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="${rc.contextPath}/media/images/g10.jpg" class="swipebox"><img src="${rc.contextPath}/media/images/g10.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Boat house</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="${rc.contextPath}/media/images/g11.jpg" class="swipebox"><img src="${rc.contextPath}/media/images/g11.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Boat house</h4>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="${rc.contextPath}/media/images/g12.jpg" class="swipebox"><img src="${rc.contextPath}/media/images/g12.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+						<h4>Boat house</h4>
+						</div>
+					</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>	
+	</div>
+</div>
+<!--//gallery-->
