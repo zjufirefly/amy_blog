@@ -24,4 +24,9 @@ public class IndexController {
     public String contact() {
         return "contact";
     }
+
+    @RequestMapping(value = "/icons")
+    public String icons() {
+        return "icons";
+    }
 }

@@ -122,7 +122,6 @@ $screen_content
                     <li><a href="#" class="w3_agileits_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                     <li><a href="#" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                     <li><a href="#" class="agileinfo_google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-
                 </ul>
             </div>
             <div class="clearfix"> </div>
@@ -132,7 +131,10 @@ $screen_content
 <!-- //footer -->
 
 
-<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<a href="#" id="toTop" style="display: block;">
+    <span id="toTopHover" style="opacity: 1;">
+    </span>
+</a>
 
 <!-- js -->
 <script src="${rc.contextPath}/media/js/jquery-2.1.4.min.js"></script>
