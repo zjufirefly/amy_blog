@@ -29,4 +29,9 @@ public class IndexController {
     public String icons() {
         return "icons";
     }
+
+    @RequestMapping(value = "/typography")
+    public String typography() {
+        return "typography";
+    }
 }

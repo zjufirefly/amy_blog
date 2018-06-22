@@ -1,4 +1,4 @@
-
+#set($layout = "/layout/default.vm")
 <!-- banner -->
 	<div class="banner-1">
 	</div>
